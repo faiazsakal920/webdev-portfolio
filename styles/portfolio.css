@@ -200,6 +200,40 @@ main section {
     font-size: 25px;
     font-weight: 700;
 }
-.downloadcv{
+
+.downloadcv {
     text-align: center;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+
+}
+.social-links a{
+    margin-right: 25px;
+    
+}
+
+.footer-column {
+    width: 50%;
+
+}
+
+.contact input[type=text], .contact input[type=email],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 10spx;
+    background: #FFF;
+    border: 0px;
+    width: 80%;
+
 }
